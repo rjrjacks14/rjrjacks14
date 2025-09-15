@@ -17,6 +17,9 @@
             "relock"
         ],
         "noDirectLaunch": [],
-        "configs": {}
+        "configs": {
+            "io.richard.adaptive.main": {}
+        },
+        "name": "adaptive-auth-otp-demo"
     }
 }
