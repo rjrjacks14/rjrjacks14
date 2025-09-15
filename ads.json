@@ -1,1 +1,22 @@
-{}
+{
+    "adaptive-auth-otp-demo": {
+        "projectName": "adaptive-auth-otp-demo",
+        "description": "Adaptive auth: LOW risk \u2192 password; HIGH risk \u2192 password + TOTP (Relock-ready risk node).\n\n",
+        "type": "community",
+        "author": "rjrjacks14",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/rjrjacks14/rjrjacks14",
+        "githubUri": "https://github.com/rjrjacks14/rjrjacks14",
+        "license": "apache-2.0",
+        "lastUpdated": "1757900546744",
+        "tags": [
+            "adaptive-auth, risk-based",
+            "otp",
+            "totp",
+            "password",
+            "relock"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
+    }
+}
