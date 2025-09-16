@@ -1,0 +1,36 @@
+{
+  "nodes": [
+    {
+      "id": "startNode-6a5cb554-a3b8-4ef8-92fc-92f44a843a14",
+      "type": "startNode",
+      "sourcePosition": "right",
+      "position": {
+        "x": 30,
+        "y": 30
+      },
+      "deletable": false,
+      "data": {
+        "id": "startNode-6a5cb554-a3b8-4ef8-92fc-92f44a843a14",
+        "type": "startNode",
+        "position": {
+          "x": 30,
+          "y": 40
+        },
+        "agamaData": {
+          "isTopLevelFlow": true,
+          "basepath": "",
+          "configParams": "{}",
+          "nodeIcon": "material-symbols:line-start-square",
+          "timeout": "",
+          "inputs": "",
+          "configs": "",
+          "flowname": "com.richard.adaptive.main",
+          "displayName": "AdaptiveL",
+          "creationDate": "16/09/2025",
+          "hasComment": true,
+          "comment": ""
+        }
+      }
+    }
+  ]
+}
