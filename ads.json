@@ -18,7 +18,8 @@
         ],
         "noDirectLaunch": [],
         "configs": {
-            "io.richard.adaptive.main": {}
+            "io.richard.adaptive.main": {},
+            "com.richard.adaptive.main": {}
         },
         "name": "adaptive-auth-otp-demo"
     }
