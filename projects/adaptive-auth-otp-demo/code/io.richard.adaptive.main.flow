@@ -1,2 +1,21 @@
 Flow io.richard.adaptive.main
      Basepath ""
+creds = RRF "login.ftlh" 
+When creds.password is "Passw0rd!"
+     riskLevel = "LOW"
+     When riskLevel is "LOW"
+          it_kxnfc = {success:true, data: { userId: "as9233Qz", property1: "value1"}}
+          Finish it_kxnfc
+     Otherwise
+          otp = RRF "otp.ftlh" 
+          When otp.code is 123456
+               it_swwqz = {success:true, data: { userId: "as9233Qz", property1: "value1"}}
+               Finish it_swwqz
+          Otherwise
+               // Invalid OTP
+               it_bxdpu = {success:false, error: "Your error message here"}
+               Finish it_bxdpu
+Otherwise
+     // Wrong Password
+     it_iuhra = {success:false, error: "Your error message here"}
+     Finish it_iuhra
